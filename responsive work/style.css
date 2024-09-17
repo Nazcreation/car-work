@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(carbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+
+.side{
+    color: black;
+    display: flex;
+    
+}
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+ul{
+    display: flex;
+    gap: 80px;
+}
+#navbar ul li{
+    color: black;
+    list-style-type: none;
+    font-size: 19px;
+    
+}
+#navbar ul li a{
+    display: flex;
+    text-decoration: none;
+}
+.list{
+    display: flex;
+    padding: 10px;
+    transition: var(--trans, color 4s ease 0s);
+    font-optical-sizing: auto;
+    font-weight: 100;
+}
+a:hover{
+    color: rgb(202, 54, 0);
+}
+.side{
+    margin-left: 50px;
+    display: block;
+}
+
+.side a button{
+    background-color: black;
+    color: white;
+}
+button{
+   border-radius: 10px;
+   width: 100px;
+   height:25px;
+   font-size: 16px;
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 200;
+   font-style: normal;
+}
+.side a button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.mid{
+    text-align: center;
+}
+
+.main{
+    margin-top: 20px;
+}
+.Autono{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.itemA{
+    font-size: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.itemB{
+    font-size: 15px;
+    margin-top: 10px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+
+    
+}
+@media only screen and (max-width: 1100px){
+
+.main{
+    flex-wrap: wrap;
+}
+.list1{
+    display: none;
+}
+.side a button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}  
+}
+.side a button{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    width: 100px;
+    }
+.Autono{
+  margin-top: 10px;
+    
+}
+
+    
+
+
+
+  
+
